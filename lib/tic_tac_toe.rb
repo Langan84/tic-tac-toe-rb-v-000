@@ -118,7 +118,7 @@ def play(board)
   end
 end
 
-#board = Array.new(9, " ")
+board = Array.new(9, " ")
 
-#play(board)
-
+play(board)
+display_board
